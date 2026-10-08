@@ -1,0 +1,229 @@
+{
+  "replicates": [
+    {
+      "training_seed": 0,
+      "final_best_train_fitness": 78.683,
+      "verdict": "improved",
+      "held_out": {
+        "untrained_population": {
+          "food_mean": 0.26,
+          "success_rate": 0.0,
+          "survival_mean": 224.81,
+          "reward_mean": 1.62
+        },
+        "trained": {
+          "food_mean": 5.567,
+          "success_rate": 0.867,
+          "survival_mean": 463.467,
+          "reward_mean": 71.481
+        },
+        "greedy_heuristic": {
+          "food_mean": 5.767,
+          "success_rate": 0.933,
+          "survival_mean": 471.2,
+          "reward_mean": 74.687
+        }
+      },
+      "unseen_trained": {
+        "dense_hazards": {
+          "food_mean": 5.367,
+          "success_rate": 0.767,
+          "survival_mean": 421.933,
+          "reward_mean": 67.806
+        },
+        "more_obstacles": {
+          "food_mean": 5.833,
+          "success_rate": 0.933,
+          "survival_mean": 479.733,
+          "reward_mean": 74.294
+        },
+        "edge_food": {
+          "food_mean": 5.633,
+          "success_rate": 0.833,
+          "survival_mean": 445.633,
+          "reward_mean": 73.39
+        }
+      }
+    },
+    {
+      "training_seed": 1,
+      "final_best_train_fitness": 78.89,
+      "verdict": "improved",
+      "held_out": {
+        "untrained_population": {
+          "food_mean": 0.14,
+          "success_rate": 0.0,
+          "survival_mean": 217.167,
+          "reward_mean": 0.448
+        },
+        "trained": {
+          "food_mean": 5.733,
+          "success_rate": 0.933,
+          "survival_mean": 480.467,
+          "reward_mean": 74.23
+        },
+        "greedy_heuristic": {
+          "food_mean": 5.767,
+          "success_rate": 0.933,
+          "survival_mean": 471.2,
+          "reward_mean": 74.687
+        }
+      },
+      "unseen_trained": {
+        "dense_hazards": {
+          "food_mean": 5.6,
+          "success_rate": 0.833,
+          "survival_mean": 441.933,
+          "reward_mean": 70.852
+        },
+        "more_obstacles": {
+          "food_mean": 5.967,
+          "success_rate": 0.967,
+          "survival_mean": 493.267,
+          "reward_mean": 76.147
+        },
+        "edge_food": {
+          "food_mean": 5.233,
+          "success_rate": 0.7,
+          "survival_mean": 414.067,
+          "reward_mean": 67.43
+        }
+      }
+    },
+    {
+      "training_seed": 2,
+      "final_best_train_fitness": 78.091,
+      "verdict": "improved",
+      "held_out": {
+        "untrained_population": {
+          "food_mean": 0.187,
+          "success_rate": 0.0,
+          "survival_mean": 225.913,
+          "reward_mean": 0.976
+        },
+        "trained": {
+          "food_mean": 5.567,
+          "success_rate": 0.833,
+          "survival_mean": 451.133,
+          "reward_mean": 71.405
+        },
+        "greedy_heuristic": {
+          "food_mean": 5.767,
+          "success_rate": 0.933,
+          "survival_mean": 471.2,
+          "reward_mean": 74.687
+        }
+      },
+      "unseen_trained": {
+        "dense_hazards": {
+          "food_mean": 5.7,
+          "success_rate": 0.833,
+          "survival_mean": 445.033,
+          "reward_mean": 72.31
+        },
+        "more_obstacles": {
+          "food_mean": 6.0,
+          "success_rate": 1.0,
+          "survival_mean": 500.0,
+          "reward_mean": 76.886
+        },
+        "edge_food": {
+          "food_mean": 5.933,
+          "success_rate": 0.967,
+          "survival_mean": 487.633,
+          "reward_mean": 78.215
+        }
+      }
+    },
+    {
+      "training_seed": 3,
+      "final_best_train_fitness": 77.637,
+      "verdict": "improved",
+      "held_out": {
+        "untrained_population": {
+          "food_mean": 0.177,
+          "success_rate": 0.0,
+          "survival_mean": 222.073,
+          "reward_mean": 0.856
+        },
+        "trained": {
+          "food_mean": 5.6,
+          "success_rate": 0.8,
+          "survival_mean": 451.267,
+          "reward_mean": 70.648
+        },
+        "greedy_heuristic": {
+          "food_mean": 5.767,
+          "success_rate": 0.933,
+          "survival_mean": 471.2,
+          "reward_mean": 74.687
+        }
+      },
+      "unseen_trained": {
+        "dense_hazards": {
+          "food_mean": 4.133,
+          "success_rate": 0.367,
+          "survival_mean": 280.5,
+          "reward_mean": 48.868
+        },
+        "more_obstacles": {
+          "food_mean": 5.5,
+          "success_rate": 0.767,
+          "survival_mean": 456.2,
+          "reward_mean": 68.357
+        },
+        "edge_food": {
+          "food_mean": 4.9,
+          "success_rate": 0.533,
+          "survival_mean": 393.567,
+          "reward_mean": 61.543
+        }
+      }
+    },
+    {
+      "training_seed": 4,
+      "final_best_train_fitness": 78.656,
+      "verdict": "improved",
+      "held_out": {
+        "untrained_population": {
+          "food_mean": 0.277,
+          "success_rate": 0.0,
+          "survival_mean": 228.233,
+          "reward_mean": 2.022
+        },
+        "trained": {
+          "food_mean": 4.933,
+          "success_rate": 0.733,
+          "survival_mean": 412.067,
+          "reward_mean": 62.891
+        },
+        "greedy_heuristic": {
+          "food_mean": 5.767,
+          "success_rate": 0.933,
+          "survival_mean": 471.2,
+          "reward_mean": 74.687
+        }
+      },
+      "unseen_trained": {
+        "dense_hazards": {
+          "food_mean": 4.3,
+          "success_rate": 0.433,
+          "survival_mean": 318.4,
+          "reward_mean": 52.334
+        },
+        "more_obstacles": {
+          "food_mean": 5.067,
+          "success_rate": 0.7,
+          "survival_mean": 420.233,
+          "reward_mean": 63.367
+        },
+        "edge_food": {
+          "food_mean": 5.4,
+          "success_rate": 0.733,
+          "survival_mean": 421.933,
+          "reward_mean": 70.029
+        }
+      }
+    }
+  ]
+}

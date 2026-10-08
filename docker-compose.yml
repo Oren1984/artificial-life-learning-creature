@@ -1,0 +1,10 @@
+services:
+  creature:
+    build: .
+    image: learning-creature:local
+    ports:
+      - "127.0.0.1:8080:8080" # local only
+    volumes:
+      - ./artifacts:/data # training runs and checkpoints persist here
+    cpus: 2
+    restart: "no"

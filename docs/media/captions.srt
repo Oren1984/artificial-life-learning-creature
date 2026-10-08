@@ -1,0 +1,53 @@
+1
+00:00:00,003 --> 00:00:03,523
+The Learning Creature
+Can a random brain learn to find food?
+
+2
+00:00:03,792 --> 00:00:08,002
+This creature starts with a random brain: 206 untrained weights.
+
+3
+00:00:08,269 --> 00:00:12,413
+Green is food. Grey blocks the way. Red drains energy. It must eat to survive.
+
+4
+00:00:12,749 --> 00:00:15,608
+A genetic algorithm evolves the brain: 40 creatures, 50 generations.
+
+5
+00:00:15,695 --> 00:00:23,309
+Live training on 8 practice worlds. Nothing here is scripted.
+
+6
+00:00:23,397 --> 00:00:36,323
+Each generation keeps the best brains, then mixes and mutates them.
+
+7
+00:00:36,409 --> 00:00:45,605
+The chart plots real fitness scores from the simulation.
+
+8
+00:00:45,861 --> 00:00:49,171
+Trained and evaluated in 91 seconds on a CPU (shown as a time-lapse).
+
+9
+00:00:49,520 --> 00:00:54,611
+Same world, never seen in training. Left: untrained. Right: trained.
+
+10
+00:00:54,874 --> 00:00:59,805
+Same creature. Same challenge. Different learned behavior.
+
+11
+00:01:00,719 --> 00:01:06,608
+On 30 held-out worlds, food found rose from 0.26 to 5.57 of 6 (95% CI of the gain: 4.79 to 5.69).
+
+12
+00:01:06,918 --> 00:01:13,202
+Limits: it only matches a one-line "go to the nearest food" rule (5.77), and it did not learn to avoid hazards.
+
+13
+00:01:13,208 --> 00:01:17,013
+Real learning, honestly measured
+Food-seeking: learned.  Hazard avoidance: not shown.
